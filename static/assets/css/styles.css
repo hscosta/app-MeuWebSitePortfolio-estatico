@@ -382,7 +382,7 @@ img {
 
 /* ===== MEDIA QUERIES =====*/
 /* For small devices */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 450px) {
     .home__title {
         align-self: flex-end;
         font-size: var(--med-font-size);
@@ -392,7 +392,7 @@ img {
     }
 
     .home__img {
-        width: 370px;
+        width: 385px;
     }
 }
 
