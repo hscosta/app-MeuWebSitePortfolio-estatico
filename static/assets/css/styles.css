@@ -19,6 +19,7 @@
 :root {
     --body-font: "Montserrat", sans-serif;
     --big-font-size: 6.25rem;
+    --med-font-size: 4.5rem;
     --h2-font-size: 1.25rem;
     --normal-font-size: 0.938rem;
     --small-font-size: 0.813rem;
@@ -382,6 +383,27 @@ img {
 /* ===== MEDIA QUERIES =====*/
 /* For small devices */
 @media screen and (max-width: 320px) {
+    .home__title {
+        align-self: flex-end;
+        font-size: var(--med-font-size);
+        color: var(--white-color);
+        line-height: 0.8;
+        text-align: center;
+    }
+
+    .home__img {
+        width: 230px;
+    }
+}
+@media screen and (min-width: 320px) {
+    .home__title {
+        align-self: flex-end;
+        font-size: var(--med-font-size);
+        color: var(--white-color);
+        line-height: 0.8;
+        text-align: center;
+    }
+
     .home__img {
         width: 230px;
     }
